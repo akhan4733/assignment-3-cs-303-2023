@@ -1,4 +1,4 @@
-//this just gives teh oparands a given integer
+//this just gives the oparands a given integer
 int precedence(char op) {
     if (op == '+' || op == '-')
         return 1;
